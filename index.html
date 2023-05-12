@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Encriptador y Desencriptador</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+  <header>
+
+    <img src="img/Vector.svg" alt="" class="logo">
+
+  </header>
+  <nav>
+
+  </nav>
+  <main>
+    <section>
+
+      <textarea class="area-texto-uno" name="encriptador" placeholder="Ingrese el texto aquí" id="texto" cols="30"
+        rows="10"></textarea>
+      <div>
+        <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+      </div>
+
+
+      <div class="botones">
+        <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+      </div>
+    </section>
+    <section>
+
+      <textarea class="area-texto-dos" name="resultado" id="resultado" cols="30" rows="10"></textarea>
+
+      <div>
+        <button class="btn-copiar">Copiar</button>
+      </div>
+    </section>
+    <footer>
+
+    </footer>
+  </main>
+</body>
+
+</html>
