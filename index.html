@@ -13,29 +13,45 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-  <header>
-    <img src="./img/Vector.svg" alt="" id="logo">
-  </header>
+
   <main>
-    <section>
-      <textarea id="area-texto-uno"placeholder="Ingrese el texto aquí"></textarea>
-      <div>
-        <h6 id="informacion">Solo letras minúsculas y sin acentoss</h6>
-      </div>
-      <div class="botones">
-        <button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
-        <button id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+    <header>
+      <img src="./img/Vector.svg" alt="" id="logo">
+    </header>
+    <section id="uno">
+      <div id="uno-mensaje">
+        <textarea id="area-texto-uno" placeholder="Ingrese el texto aquí"></textarea>
+
+        <div id="botones1">
+          <div>
+            <h6 id="informacion">Solo letras minúsculas y sin acentoss</h6>
+          </div>
+          <div id="btn-area">
+            <button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+          </div>
+        </div>
       </div>
     </section>
-    <section>
-      <textarea id="area-texto-dos"></textarea>
-      <img src="./img/Muneco.svg" alt="" class="logo">
-      <div class="botones">
-        <button id="btn-copiar">Copiar</button>
-      </div>
+    <section id="dos">
+      <div id="dos-mensaje">
+        <div id="mensaje-off">
+          <img src="./img/Muneco.svg" alt="" id="muneco"">
+          <p>Ningún mensaje fue encontrado</p>
+          <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+
+        </div>
+        <div id="mensaje-on">
+          <textarea id="area-texto-dos"></textarea>
+          <div id="botones2">
+            <button id="btn-copiar">Copiar</button>
+          </div>
+        </div>
+      </div>  
     </section>
-   
+
   </main>
   <footer>
     <p>parrafo</p>
