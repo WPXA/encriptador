@@ -10,7 +10,7 @@
 }
 
 header {
-    border: 5px solid blue;
+
     width: 10vh;
     display: flex;
     justify-content: center;
@@ -23,24 +23,22 @@ header {
 }
 
 main {
-    border: 5px solid black;
+
     display: flex;
     flex-direction: row;
     min-height: 90vh;
 
 }
 
-section {
-    background-color: rgb(253, 245, 245);
-}
+
 
 footer {
-    border: 5px solid yellow;
+
     display: block;
 }
 
 #uno {
-    border: 5px solid rgb(4, 0, 255);
+
     width: 60vw;
     padding-top: 15vh;
     display: flex;
@@ -57,6 +55,7 @@ footer {
     resize: none;
     background-color: transparent;
     height: 50vh;
+    border: none;
 }
 
 #area-texto-uno:focus {
@@ -80,20 +79,18 @@ footer {
 }
 
 #dos {
-    border: 5px solid rgb(0, 21, 255);
-    width: auto;
 
-    background-color: #ffffff;
+    width: auto;
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2em;
-    
+
 }
 
 #dos-mensaje {
-    background-color: #f00c0c;
+
     height: 80vh;
     width: 75%;
     display: flex;
@@ -111,21 +108,31 @@ footer {
     width: 100%;
     height: 100%;
     resize: none;
-    
+    border: none;
+
 }
 
 #mensaje-on {
+   
+    display:none
+   
+}
+#cuadro-aparece{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
 
-#mensaje-on {
+#mensaje-off{
+    
+}
+
+.imagen-oculta {
     display: none;
 }
 
-#muneco{
+#muneco {
     width: 100%;
 }
 
@@ -137,7 +144,8 @@ button {
     border: 2px solid #0a3871;
     transition: border-color 250ms, background-color 250ms;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
 }
 
@@ -145,6 +153,7 @@ button:hover{
     background-color: #0a3871;
     color: #fff;
 }
+
 #btn-encriptar:hover {
     background-color: #4b9cda;
     color: #ffffff;
@@ -156,18 +165,20 @@ button:hover{
     color: #0a3871;
 
 }
+
 #btn-desencriptar:hover {
     background-color: #d8dfe8;
     color: #0a3871;
 
 }
 
-#btn-copiar:hover{
+#btn-copiar:hover {
     background-color: #d8dfe8;
     color: #0a3871;
 }
 
 
-#botones2{
+#botones2 {
     margin-bottom: 1em;
+    margin-top: 1em;
 }
